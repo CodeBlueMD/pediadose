@@ -1,0 +1,2925 @@
+[
+  {
+    "brandNames" : [
+      "Tylenol",
+      "FeverAll",
+      "Ofirmev"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "apap-160-5",
+        "isMicrogram" : false,
+        "label" : "160 mg \/ 5 mL Susp (Standard)",
+        "splittable" : false,
+        "strengthValue" : 160,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "apap-chew-160",
+        "isMicrogram" : false,
+        "label" : "160 mg Chewable Tablet",
+        "splittable" : true,
+        "strengthValue" : 160,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "apap-tab-325",
+        "isMicrogram" : false,
+        "label" : "325 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 325,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "apap-tab-500",
+        "isMicrogram" : false,
+        "label" : "500 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 500,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "apap-supp-120",
+        "isMicrogram" : false,
+        "label" : "120 mg Suppository",
+        "splittable" : false,
+        "strengthValue" : 120,
+        "type" : "Suppository"
+      },
+      {
+        "id" : "apap-supp-325",
+        "isMicrogram" : false,
+        "label" : "325 mg Suppository",
+        "splittable" : false,
+        "strengthValue" : 325,
+        "type" : "Suppository"
+      },
+      {
+        "id" : "apap-iv-10",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Acetaminophen",
+    "id" : "acetaminophen",
+    "indications" : [
+      {
+        "ageWarningText" : "For neonates (<28d), use 10–15 mg\/kg\/dose q6–8h (max 60 mg\/kg\/day).",
+        "clinicalPearls" : "Max 5 doses\/24h (75 mg\/kg\/day up to 4000 mg\/day). Verify concentration: infant & children's liquids in the US are standardized to 160 mg\/5 mL.",
+        "defaultDose" : 15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q4–6h PRN",
+        "id" : "apap-po",
+        "maxDailyDose" : 4000,
+        "maxDose" : 15,
+        "maxSingleDose" : 1000,
+        "minDose" : 10,
+        "name" : "Fever \/ Pain (Oral)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Rectal absorption is slower and more variable than oral; avoid splitting suppositories if possible due to uneven drug distribution.",
+        "defaultDose" : 15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q4–6h PRN",
+        "id" : "apap-pr",
+        "maxDailyDose" : 4000,
+        "maxDose" : 20,
+        "maxSingleDose" : 1000,
+        "minDose" : 15,
+        "name" : "Fever \/ Pain (Rectal)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PR"
+      },
+      {
+        "clinicalPearls" : "Infuse over 15 minutes. In infants <2 years, consider 7.5–12.5 mg\/kg\/dose q6h per institutional protocol.",
+        "defaultDose" : 15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h (infuse over 15 min)",
+        "id" : "apap-iv",
+        "maxDailyDose" : 4000,
+        "maxDose" : 15,
+        "maxSingleDose" : 1000,
+        "minDose" : 12.5,
+        "name" : "Moderate Pain \/ Fever (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "First-line antipyretic & mild-to-moderate analgesic (PO\/PR\/IV)."
+  },
+  {
+    "brandNames" : [
+      "Zovirax"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "acy-iv-7",
+        "isMicrogram" : false,
+        "label" : "7 mg \/ mL Diluted IV Soln",
+        "splittable" : false,
+        "strengthValue" : 7,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "acy-po-200-5",
+        "isMicrogram" : false,
+        "label" : "200 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 200,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      }
+    ],
+    "genericName" : "Acyclovir",
+    "id" : "acyclovir",
+    "indications" : [
+      {
+        "clinicalPearls" : "20 mg\/kg\/dose IV q8h is standard for neonatal HSV and pediatric HSV encephalitis (<12y).",
+        "defaultDose" : 20,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "q8h (infuse over 1 hour)",
+        "id" : "acy-iv-hsv",
+        "maxDailyDose" : 3000,
+        "maxDose" : 20,
+        "maxSingleDose" : 1000,
+        "minDose" : 10,
+        "name" : "HSV Encephalitis \/ Neonatal HSV (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Ensure adequate IV hydration to prevent crystal nephropathy; adjust in renal impairment.",
+        "route" : "IV"
+      },
+      {
+        "clinicalPearls" : "Start within 24 hours of rash onset for varicella in immunocompromised or ≥12y patients.",
+        "defaultDose" : 20,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q6h (4x\/day)",
+        "id" : "acy-po-varicella",
+        "maxDailyDose" : 3200,
+        "maxDose" : 20,
+        "maxSingleDose" : 800,
+        "minAgeDays" : 730,
+        "minDose" : 20,
+        "name" : "Varicella \/ Mucocutaneous HSV (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Antiviral for HSV encephalitis, neonatal HSV, and severe varicella."
+  },
+  {
+    "brandNames" : [
+      "Adenocard"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "aden-3-1",
+        "isMicrogram" : false,
+        "label" : "3 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 3,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Adenosine",
+    "id" : "adenosine",
+    "indications" : [
+      {
+        "clinicalPearls" : "Use 3-way stopcock with 5–10 mL NS flush in proximal vein. If no conversion after 1–2 min, give 2nd dose of 0.2 mg\/kg (max 12 mg).",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "rapid IV push + immediate NS flush",
+        "id" : "aden-1st",
+        "maxDose" : 0.1,
+        "maxSingleDose" : 6,
+        "minDose" : 0.1,
+        "name" : "SVT — 1st Dose (Rapid IV Push)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      },
+      {
+        "clinicalPearls" : "Keep continuous ECG rhythm strip running during administration.",
+        "defaultDose" : 0.2,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "rapid IV push + immediate NS flush",
+        "id" : "aden-2nd",
+        "maxDose" : 0.2,
+        "maxSingleDose" : 12,
+        "minDose" : 0.2,
+        "name" : "SVT — 2nd Dose (Rapid IV Push)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "PALS antiarrhythmic for Supraventricular Tachycardia (SVT)."
+  },
+  {
+    "brandNames" : [
+      "ProAir",
+      "Ventolin",
+      "Proventil"
+    ],
+    "category" : "Respiratory & Asthma",
+    "formulations" : [
+      {
+        "id" : "alb-25-3",
+        "isMicrogram" : false,
+        "label" : "2.5 mg \/ 3 mL (0.083% Nebule)",
+        "splittable" : false,
+        "strengthValue" : 2.5,
+        "type" : "Nebulizer Solution",
+        "volumeMl" : 3
+      },
+      {
+        "id" : "alb-5-1",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ mL (0.5% Conc Neb Soln)",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "Nebulizer Solution",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Albuterol",
+    "id" : "albuterol",
+    "indications" : [
+      {
+        "clinicalPearls" : "Minimum practical neb dose is 2.5 mg (3 mL of 0.083% nebules) for <20 kg, and 5 mg for ≥20 kg in most ED pathways.",
+        "defaultDose" : 0.15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 6,
+        "frequencyLabel" : "q20min x 3 (acute), then q1–4h PRN",
+        "id" : "alb-neb",
+        "maxDailyDose" : 40,
+        "maxDose" : 0.15,
+        "maxSingleDose" : 5,
+        "minDose" : 0.15,
+        "name" : "Acute Asthma Exacerbation (Nebulizer)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "NEB"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Short-acting beta-2 agonist (SABA) for acute bronchospasm \/ asthma."
+  },
+  {
+    "brandNames" : [
+      "Cordarone",
+      "Nexterone"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "amio-50-1",
+        "isMicrogram" : false,
+        "label" : "50 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 50,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Amiodarone",
+    "id" : "amiodarone",
+    "indications" : [
+      {
+        "clinicalPearls" : "Give as rapid bolus in cardiac arrest. For perfusing tachyarrhythmias, infuse slowly over 20–60 min to avoid hypotension.",
+        "defaultDose" : 5,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "IV\/IO bolus; may repeat up to 3 total doses",
+        "id" : "amio-arrest",
+        "maxDailyDose" : 450,
+        "maxDose" : 5,
+        "maxSingleDose" : 300,
+        "minDose" : 5,
+        "name" : "Pulseless VF \/ pVT (Refractory)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "PALS Class III antiarrhythmic for shock-refractory VF\/pVT."
+  },
+  {
+    "brandNames" : [
+      "Amoxil"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "amox-400-5",
+        "isMicrogram" : false,
+        "label" : "400 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 400,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "amox-250-5",
+        "isMicrogram" : false,
+        "label" : "250 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "amox-125-5",
+        "isMicrogram" : false,
+        "label" : "125 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 125,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "amox-chew-250",
+        "isMicrogram" : false,
+        "label" : "250 mg Chewable Tablet",
+        "splittable" : true,
+        "strengthValue" : 250,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "amox-cap-500",
+        "isMicrogram" : false,
+        "label" : "500 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 500,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Amoxicillin",
+    "id" : "amoxicillin",
+    "indications" : [
+      {
+        "clinicalPearls" : "90 mg\/kg\/day divided BID overcomes penicillin-non-susceptible S. pneumoniae. Max 1000 mg\/dose (or 2000 mg\/day in many outpatient AOM guidelines).",
+        "defaultDose" : 90,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5–10 days",
+        "frequencyLabel" : "divided q12h",
+        "id" : "amox-high",
+        "maxDailyDose" : 2000,
+        "maxDose" : 90,
+        "maxSingleDose" : 1000,
+        "minDose" : 80,
+        "name" : "Acute Otitis Media \/ CAP (High-Dose)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Adjust interval if CrCl <30 mL\/min.",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Once-daily 50 mg\/kg (max 1000 mg) x 10 days is AAP first-line for Group A Strep pharyngitis.",
+        "defaultDose" : 50,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 1,
+        "durationNote" : "x 10 days",
+        "frequencyLabel" : "once daily (or divided q12h)",
+        "id" : "amox-strep",
+        "maxDailyDose" : 1000,
+        "maxDose" : 50,
+        "maxSingleDose" : 1000,
+        "minDose" : 40,
+        "name" : "GAS Pharyngitis (Standard)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "First-line aminopenicillin for AOM, strep pharyngitis, and CAP."
+  },
+  {
+    "brandNames" : [
+      "Augmentin"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "aug-600-5",
+        "isMicrogram" : false,
+        "label" : "600 mg \/ 5 mL (ES-600 Susp)",
+        "splittable" : false,
+        "strengthValue" : 600,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "aug-400-5",
+        "isMicrogram" : false,
+        "label" : "400 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 400,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "aug-200-5",
+        "isMicrogram" : false,
+        "label" : "200 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 200,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "aug-tab-500",
+        "isMicrogram" : false,
+        "label" : "500 mg \/ 125 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 500,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "aug-tab-875",
+        "isMicrogram" : false,
+        "label" : "875 mg \/ 125 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 875,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Amoxicillin-Clavulanate",
+    "id" : "amox-clav",
+    "indications" : [
+      {
+        "clinicalPearls" : "Use 600 mg\/42.9 mg per 5 mL (14:1 ratio) for 90 mg\/kg\/day to minimize clavulanate-induced diarrhea.",
+        "defaultDose" : 90,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 7–10 days",
+        "frequencyLabel" : "divided q12h",
+        "id" : "aug-high",
+        "maxDailyDose" : 2000,
+        "maxDose" : 90,
+        "maxSingleDose" : 1000,
+        "minDose" : 80,
+        "name" : "Recurrent AOM \/ Sinusitis (ES-600 High-Dose)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Use 400 mg\/57 mg per 5 mL or 200 mg\/28.5 mg per 5 mL suspension for BID standard dosing.",
+        "defaultDose" : 45,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 7–10 days",
+        "frequencyLabel" : "divided q12h",
+        "id" : "aug-std",
+        "maxDailyDose" : 1750,
+        "maxDose" : 45,
+        "maxSingleDose" : 875,
+        "minDose" : 25,
+        "name" : "Skin \/ Bite \/ UTI (Standard)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Beta-lactam\/beta-lactamase inhibitor (dosed by amoxicillin component)."
+  },
+  {
+    "brandNames" : [
+      "AtroPen"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "atrop-01-1",
+        "isMicrogram" : false,
+        "label" : "0.1 mg \/ mL IV Syringe",
+        "splittable" : false,
+        "strengthValue" : 0.1,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "atrop-04-1",
+        "isMicrogram" : false,
+        "label" : "0.4 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 0.4,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Atropine",
+    "id" : "atropine",
+    "indications" : [
+      {
+        "clinicalPearls" : "PALS minimum single dose (0.1 mg) was removed in recent updates for infants, though many centers still observe 0.1 mg floor. Max child single dose 0.5 mg (1 mg adolescent).",
+        "defaultDose" : 0.02,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once; may repeat once in 5 min",
+        "id" : "atrop-brady",
+        "maxDailyDose" : 1,
+        "maxDose" : 0.02,
+        "maxSingleDose" : 0.5,
+        "minDose" : 0.02,
+        "name" : "Symptomatic Bradycardia (Vagal \/ AV Block)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Anticholinergic for symptomatic vagal bradycardia & organophosphate toxicity."
+  },
+  {
+    "brandNames" : [
+      "Zithromax",
+      "Z-Pak"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "azith-200-5",
+        "isMicrogram" : false,
+        "label" : "200 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 200,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "azith-100-5",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "azith-tab-250",
+        "isMicrogram" : false,
+        "label" : "250 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "azith-tab-500",
+        "isMicrogram" : false,
+        "label" : "500 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 500,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Azithromycin",
+    "id" : "azithromycin",
+    "indications" : [
+      {
+        "clinicalPearls" : "Days 2–5: 5 mg\/kg once daily (max 250 mg). For pertussis in infants <6m, 10 mg\/kg\/day x 5 days (monitor for IHPS in <1m).",
+        "defaultDose" : 10,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once on Day 1 (then 5 mg\/kg Days 2–5)",
+        "id" : "azith-cap-day1",
+        "maxDailyDose" : 500,
+        "maxDose" : 10,
+        "maxSingleDose" : 500,
+        "minDose" : 10,
+        "name" : "Atypical CAP \/ Pertussis (Day 1)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Follows Day 1 loading dose of 10 mg\/kg (max 500 mg).",
+        "defaultDose" : 5,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "durationNote" : "Days 2–5",
+        "frequencyLabel" : "once daily",
+        "id" : "azith-cap-days2to5",
+        "maxDailyDose" : 250,
+        "maxDose" : 5,
+        "maxSingleDose" : 250,
+        "minDose" : 5,
+        "name" : "Atypical CAP (Days 2–5)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Higher macrolide resistance in GAS; reserve for true severe penicillin allergy.",
+        "defaultDose" : 12,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "once daily",
+        "id" : "azith-strep",
+        "maxDailyDose" : 500,
+        "maxDose" : 12,
+        "maxSingleDose" : 500,
+        "minDose" : 12,
+        "name" : "GAS Pharyngitis (PCN Allergy)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Macrolide for atypical pneumonia, pertussis, and penicillin-allergic pharyngitis."
+  },
+  {
+    "brandNames" : [
+      "Calgonate"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "cagluc-100-1",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ mL (10% IV Vial)",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Calcium Gluconate 10%",
+    "id" : "calcium-gluconate",
+    "indications" : [
+      {
+        "clinicalPearls" : "10% Calcium Gluconate = 100 mg\/mL (so 100 mg\/kg = 1 mL\/kg). Never mix with sodium bicarbonate or ceftriaxone in the same line.",
+        "defaultDose" : 100,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "slow IV over 5–10 min w\/ ECG monitoring",
+        "id" : "cagluc-iv",
+        "maxDose" : 100,
+        "maxSingleDose" : 3000,
+        "minDose" : 50,
+        "name" : "Hyperkalemia \/ Symptomatic Hypocalcemia",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Membrane stabilizer for hyperkalemia, hypocalcemia, and CCB toxicity."
+  },
+  {
+    "brandNames" : [
+      "Ancef"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "cefaz-100-1",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Cefazolin",
+    "id" : "cefazolin",
+    "indications" : [
+      {
+        "clinicalPearls" : "Surgical prophylaxis: 30 mg\/kg IV (max 2000 mg) within 60 min prior to incision.",
+        "defaultDose" : 100,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "divided q8h",
+        "id" : "cefaz-std",
+        "maxDailyDose" : 6000,
+        "maxDose" : 100,
+        "maxSingleDose" : 2000,
+        "minDose" : 50,
+        "name" : "MSSA \/ Moderate-Severe Infection",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "IV 1st-gen cephalosporin for MSSA bacteremia, SSTI, and surgical prophylaxis."
+  },
+  {
+    "brandNames" : [
+      "Omnicef"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "cefdinir-250-5",
+        "isMicrogram" : false,
+        "label" : "250 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "cefdinir-125-5",
+        "isMicrogram" : false,
+        "label" : "125 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 125,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "cefdinir-cap-300",
+        "isMicrogram" : false,
+        "label" : "300 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 300,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Cefdinir",
+    "id" : "cefdinir",
+    "indications" : [
+      {
+        "clinicalPearls" : "Can cause harmless reddish stools when co-administered with iron-containing formula\/supplements.",
+        "defaultDose" : 14,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5–10 days",
+        "frequencyLabel" : "divided q12h (or once daily)",
+        "id" : "cefdinir-std",
+        "maxDailyDose" : 600,
+        "maxDose" : 14,
+        "maxSingleDose" : 300,
+        "minAgeDays" : 180,
+        "minDose" : 14,
+        "name" : "AOM \/ Sinusitis \/ UTI",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "3rd-generation oral cephalosporin for AOM, sinusitis, and UTI."
+  },
+  {
+    "brandNames" : [
+      "Rocephin"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "compatibleRoutes" : [
+          "IV"
+        ],
+        "id" : "ctx-100-1",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ mL IV Soln (1 g\/10 mL)",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "compatibleRoutes" : [
+          "IM"
+        ],
+        "id" : "ctx-250-1",
+        "isMicrogram" : false,
+        "label" : "250 mg \/ mL IM (w\/ 1% Lidocaine)",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Ceftriaxone",
+    "id" : "ceftriaxone",
+    "indications" : [
+      {
+        "ageWarningText" : "CONTRAINDICATED in hyperbilirubinemic neonates & premature neonates; avoid <28d (use Cefotaxime\/Cefepime) and never co-administer with IV calcium.",
+        "clinicalPearls" : "For IM AOM: 50 mg\/kg x 1 (or x 3 days for treatment failure), max 1000 mg.",
+        "defaultDose" : 50,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once daily (IV or IM)",
+        "id" : "ctx-std",
+        "maxDailyDose" : 2000,
+        "maxDose" : 75,
+        "maxSingleDose" : 2000,
+        "minAgeDays" : 29,
+        "minDose" : 50,
+        "name" : "Sepsis \/ Pneumonia \/ Pyelonephritis \/ AOM (IM)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      },
+      {
+        "ageWarningText" : "Avoid in neonates ≤28 days; use Cefotaxime or Cefepime + Ampicillin.",
+        "clinicalPearls" : "Often paired with Vancomycin empirically until CSF cultures\/susceptibilities return.",
+        "defaultDose" : 100,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "frequencyLabel" : "divided q12h",
+        "id" : "ctx-meningitis",
+        "maxDailyDose" : 4000,
+        "maxDose" : 100,
+        "maxSingleDose" : 2000,
+        "minAgeDays" : 29,
+        "minDose" : 100,
+        "name" : "Bacterial Meningitis",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      },
+      {
+        "ageWarningText" : "Avoid in neonates ≤28 days.",
+        "clinicalPearls" : "Reconstitute with 1% Lidocaine (without epinephrine) for IM injection ONLY — never administer Lidocaine-reconstituted ceftriaxone IV.",
+        "defaultDose" : 50,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once daily (x 1–3 days)",
+        "id" : "ctx-im-aom",
+        "maxDailyDose" : 1000,
+        "maxDose" : 50,
+        "maxSingleDose" : 1000,
+        "minAgeDays" : 29,
+        "minDose" : 50,
+        "name" : "Refractory Acute Otitis Media (IM)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IM"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Broad-spectrum IV\/IM 3rd-gen cephalosporin for serious bacterial infections."
+  },
+  {
+    "brandNames" : [
+      "Keflex"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "ceph-250-5",
+        "isMicrogram" : false,
+        "label" : "250 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "ceph-125-5",
+        "isMicrogram" : false,
+        "label" : "125 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 125,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "ceph-cap-250",
+        "isMicrogram" : false,
+        "label" : "250 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "ceph-cap-500",
+        "isMicrogram" : false,
+        "label" : "500 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 500,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Cephalexin",
+    "id" : "cephalexin",
+    "indications" : [
+      {
+        "clinicalPearls" : "For severe MSSA osteomyelitis or deep SSTI, doses up to 75–100 mg\/kg\/day (max 4000 mg\/day) are used.",
+        "defaultDose" : 50,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "durationNote" : "x 7–10 days",
+        "frequencyLabel" : "divided q8h (or q6h)",
+        "id" : "ceph-std",
+        "maxDailyDose" : 2000,
+        "maxDose" : 50,
+        "maxSingleDose" : 500,
+        "minDose" : 25,
+        "name" : "Cellulitis \/ UTI (Standard)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "1st-generation cephalosporin for MSSA skin\/soft tissue infections & UTI."
+  },
+  {
+    "brandNames" : [
+      "Zyrtec"
+    ],
+    "category" : "Allergy & ENT",
+    "formulations" : [
+      {
+        "id" : "cet-5-5",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ 5 mL Syrup (1 mg\/mL)",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "cet-chew-5",
+        "isMicrogram" : false,
+        "label" : "5 mg Chewable Tablet",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "cet-tab-10",
+        "isMicrogram" : false,
+        "label" : "10 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Cetirizine",
+    "id" : "cetirizine",
+    "indications" : [
+      {
+        "clinicalPearls" : "Standard age tiers: 6m–2y: 2.5 mg daily; 2–5y: 2.5–5 mg daily; ≥6y: 5–10 mg daily.",
+        "defaultDose" : 0.25,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once daily (or divided BID for urticaria)",
+        "id" : "cet-std",
+        "maxDailyDose" : 10,
+        "maxDose" : 0.25,
+        "maxSingleDose" : 10,
+        "minAgeDays" : 180,
+        "minDose" : 0.25,
+        "name" : "Allergic Rhinitis \/ Urticaria",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "2nd-generation minimally sedating antihistamine for urticaria & allergic rhinitis."
+  },
+  {
+    "brandNames" : [
+      "Cleocin"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "clinda-75-5",
+        "isMicrogram" : false,
+        "label" : "75 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 75,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "clinda-cap-150",
+        "isMicrogram" : false,
+        "label" : "150 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 150,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "clinda-cap-300",
+        "isMicrogram" : false,
+        "label" : "300 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 300,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "clinda-iv-150",
+        "isMicrogram" : false,
+        "label" : "150 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 150,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Clindamycin",
+    "id" : "clindamycin",
+    "indications" : [
+      {
+        "clinicalPearls" : "Oral solution is notoriously bitter; warn caregivers. Monitor for C. difficile diarrhea.",
+        "defaultDose" : 30,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "durationNote" : "x 7–10 days",
+        "frequencyLabel" : "divided q8h",
+        "id" : "clinda-po",
+        "maxDailyDose" : 1800,
+        "maxDose" : 40,
+        "maxSingleDose" : 600,
+        "minDose" : 20,
+        "name" : "SSTI \/ MRSA \/ Odontogenic (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Infuse over 10–60 min; rapid IV push can cause hypotension\/cardiac arrest.",
+        "defaultDose" : 40,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "divided q8h (or q6h)",
+        "id" : "clinda-iv",
+        "maxDailyDose" : 2700,
+        "maxDose" : 40,
+        "maxSingleDose" : 900,
+        "minDose" : 30,
+        "name" : "Severe SSTI \/ Deep Neck \/ Toxic Shock (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Lincosamide for MRSA skin infections, odontogenic, and anaerobic infections."
+  },
+  {
+    "brandNames" : [
+      "Decadron"
+    ],
+    "category" : "Steroids & Endocrine",
+    "formulations" : [
+      {
+        "compatibleRoutes" : [
+          "IV",
+          "IM",
+          "PO"
+        ],
+        "id" : "dex-4-1",
+        "isMicrogram" : false,
+        "label" : "4 mg \/ mL IV\/IM\/PO Vial",
+        "splittable" : false,
+        "strengthValue" : 4,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "compatibleRoutes" : [
+          "IV",
+          "IM"
+        ],
+        "id" : "dex-10-1",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ mL IV\/IM Vial",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "dex-1-1",
+        "isMicrogram" : false,
+        "label" : "1 mg \/ mL Oral Concentrate",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "dex-05-5",
+        "isMicrogram" : false,
+        "label" : "0.5 mg \/ 5 mL Elixir",
+        "splittable" : false,
+        "strengthValue" : 0.5,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "dex-tab-4",
+        "isMicrogram" : false,
+        "label" : "4 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 4,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Dexamethasone",
+    "id" : "dexamethasone",
+    "indications" : [
+      {
+        "clinicalPearls" : "0.6 mg\/kg PO\/IM\/IV (max 16 mg; some asthma protocols cap at 12 mg). IV formulation (4 mg\/mL or 10 mg\/mL) can be given PO mixed with flavoring.",
+        "defaultDose" : 0.6,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once (x 1–2 days for asthma)",
+        "id" : "dex-croup-asthma",
+        "maxDailyDose" : 16,
+        "maxDose" : 0.6,
+        "maxSingleDose" : 16,
+        "minDose" : 0.6,
+        "name" : "Croup \/ Acute Asthma Exacerbation",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "Give 10–20 min before or simultaneously with first antibiotic dose for suspected H. influenzae or S. pneumoniae meningitis.",
+        "defaultDose" : 0.15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h x 2–4 days (prior to\/with 1st abx)",
+        "id" : "dex-meningitis",
+        "maxDailyDose" : 40,
+        "maxDose" : 0.15,
+        "maxSingleDose" : 10,
+        "minAgeDays" : 42,
+        "minDose" : 0.15,
+        "name" : "Bacterial Meningitis Adjunct",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Long-acting corticosteroid for croup, asthma exacerbation, and meningitis."
+  },
+  {
+    "brandNames" : [
+      "D10W"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "d10-bag",
+        "isMicrogram" : false,
+        "label" : "D10W (100 mg\/mL) IV Solution",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "IV Solution",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Dextrose 10% (D10W)",
+    "id" : "dextrose-d10",
+    "indications" : [
+      {
+        "clinicalPearls" : "Neonates: 2 mL\/kg D10W (0.2 g\/kg). Infants\/children: 2–5 mL\/kg D10W (0.2–0.5 g\/kg). D10W is preferred over D50W in pediatrics to reduce extravasation necrosis.",
+        "defaultDose" : 2,
+        "doseBasis" : "mLPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "slow IV push; recheck glucose in 15 min",
+        "id" : "d10-hypo",
+        "maxDose" : 5,
+        "maxSingleDose" : 250,
+        "minDose" : 2,
+        "name" : "Hypoglycemia (Neonates & Children)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "First-line IV dextrose for pediatric & neonatal hypoglycemia."
+  },
+  {
+    "brandNames" : [
+      "Benadryl"
+    ],
+    "category" : "Allergy & ENT",
+    "formulations" : [
+      {
+        "id" : "diph-125-5",
+        "isMicrogram" : false,
+        "label" : "12.5 mg \/ 5 mL Liquid",
+        "splittable" : false,
+        "strengthValue" : 12.5,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "diph-tab-25",
+        "isMicrogram" : false,
+        "label" : "25 mg Tablet \/ Capsule",
+        "splittable" : false,
+        "strengthValue" : 25,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "diph-iv-50",
+        "isMicrogram" : false,
+        "label" : "50 mg \/ mL IV\/IM Vial",
+        "splittable" : false,
+        "strengthValue" : 50,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Diphenhydramine",
+    "id" : "diphenhydramine",
+    "indications" : [
+      {
+        "ageWarningText" : "Avoid OTC use in children <2 years; use with caution <6 years due to sedation\/paradoxical excitation.",
+        "clinicalPearls" : "Do NOT use as monotherapy for anaphylaxis — Epinephrine IM is first-line.",
+        "defaultDose" : 1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h PRN",
+        "id" : "diph-std",
+        "maxDailyDose" : 300,
+        "maxDose" : 1.25,
+        "maxSingleDose" : 50,
+        "minAgeDays" : 730,
+        "minDose" : 1,
+        "name" : "Acute Allergic Reaction \/ Urticaria (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "ageWarningText" : "Avoid in <2 years unless emergent dystonia\/anaphylaxis adjunct under close monitoring.",
+        "clinicalPearls" : "Administer IV slowly (max 25 mg\/min).",
+        "defaultDose" : 1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h PRN",
+        "id" : "diph-iv",
+        "maxDailyDose" : 300,
+        "maxDose" : 1,
+        "maxSingleDose" : 50,
+        "minAgeDays" : 730,
+        "minDose" : 1,
+        "name" : "Acute Allergic Reaction \/ Dystonia (IV\/IM)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "1st-generation H1 antihistamine for acute urticaria, allergic reactions, and dystonia."
+  },
+  {
+    "brandNames" : [
+      "Adrenalin",
+      "EpiPen"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "compatibleRoutes" : [
+          "IM"
+        ],
+        "id" : "epi-1-1",
+        "isMicrogram" : false,
+        "label" : "1 mg \/ mL (1:1,000) IM Vial",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "compatibleRoutes" : [
+          "IM"
+        ],
+        "id" : "epi-pen-015",
+        "isMicrogram" : false,
+        "label" : "0.15 mg Auto-Injector (15–30 kg)",
+        "splittable" : false,
+        "strengthValue" : 0.15,
+        "type" : "Auto-Injector"
+      },
+      {
+        "compatibleRoutes" : [
+          "IM"
+        ],
+        "id" : "epi-pen-030",
+        "isMicrogram" : false,
+        "label" : "0.3 mg Auto-Injector (≥30 kg)",
+        "splittable" : false,
+        "strengthValue" : 0.3,
+        "type" : "Auto-Injector"
+      }
+    ],
+    "genericName" : "Epinephrine (Anaphylaxis IM)",
+    "id" : "epinephrine-anaphylaxis",
+    "indications" : [
+      {
+        "clinicalPearls" : "0.01 mg\/kg (= 0.01 mL\/kg of 1 mg\/mL [1:1,000]). Max 0.3 mg in prepubertal children, 0.5 mg in adolescents\/adults. Auto-injectors: 0.1 mg (7.5–15 kg), 0.15 mg (15–30 kg), 0.3 mg (≥30 kg).",
+        "defaultDose" : 0.01,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once; repeat q5–15min PRN",
+        "id" : "epi-im-anaph",
+        "maxDose" : 0.01,
+        "maxSingleDose" : 0.5,
+        "minDose" : 0.01,
+        "name" : "Anaphylaxis (Anterolateral Thigh IM)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IM"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "First-line IM treatment for anaphylaxis (1 mg\/mL = 1:1,000)."
+  },
+  {
+    "brandNames" : [
+      "PALS Code Dose"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "epi-01-1",
+        "isMicrogram" : false,
+        "label" : "0.1 mg \/ mL (1:10,000) Bristojet",
+        "splittable" : false,
+        "strengthValue" : 0.1,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Epinephrine (Cardiac Arrest IV\/IO)",
+    "id" : "epinephrine-pals",
+    "indications" : [
+      {
+        "clinicalPearls" : "0.01 mg\/kg (= 0.1 mL\/kg of 0.1 mg\/mL [1:10,000]). Follow with 5 mL NS flush. ETT dose (if no IV\/IO): 0.1 mg\/kg (0.1 mL\/kg of 1:1,000).",
+        "defaultDose" : 0.01,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "q3–5min during CPR",
+        "id" : "epi-iv-arrest",
+        "maxDose" : 0.01,
+        "maxSingleDose" : 1,
+        "minDose" : 0.01,
+        "name" : "Cardiac Arrest \/ Symptomatic Bradycardia",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "PALS resuscitation dose (0.1 mg\/mL = 1:10,000)."
+  },
+  {
+    "brandNames" : [
+      "Pepcid"
+    ],
+    "category" : "GI & Antiemetics",
+    "formulations" : [
+      {
+        "id" : "fam-40-5",
+        "isMicrogram" : false,
+        "label" : "40 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 40,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "fam-tab-10",
+        "isMicrogram" : false,
+        "label" : "10 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "fam-tab-20",
+        "isMicrogram" : false,
+        "label" : "20 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 20,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "fam-iv-10",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Famotidine",
+    "id" : "famotidine",
+    "indications" : [
+      {
+        "clinicalPearls" : "Give before meals or at bedtime.",
+        "defaultDose" : 1,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "frequencyLabel" : "divided q12h",
+        "id" : "fam-std",
+        "maxDailyDose" : 40,
+        "maxDose" : 1,
+        "maxSingleDose" : 20,
+        "minDose" : 0.5,
+        "name" : "GERD \/ Acid Suppression (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Reduce dose by 50% if CrCl <50 mL\/min.",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "H2 blocker adjunct in anaphylaxis (after IM Epinephrine).",
+        "defaultDose" : 0.25,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 2,
+        "frequencyLabel" : "q12h (slow IV over ≥2 min)",
+        "id" : "fam-iv",
+        "maxDailyDose" : 40,
+        "maxDose" : 0.5,
+        "maxSingleDose" : 20,
+        "minDose" : 0.25,
+        "name" : "GERD \/ Anaphylaxis Adjunct (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Reduce dose by 50% if CrCl <50 mL\/min.",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "H2 receptor antagonist for GERD, gastritis, and anaphylaxis adjunct."
+  },
+  {
+    "brandNames" : [
+      "Sublimaze"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "fent-50-1",
+        "isMicrogram" : true,
+        "label" : "50 mcg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 50,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Fentanyl",
+    "id" : "fentanyl",
+    "indications" : [
+      {
+        "clinicalPearls" : "Rapid IV push can cause chest wall rigidity. Intranasal route often uses 1.5–2 mcg\/kg (max 100 mcg).",
+        "defaultDose" : 1,
+        "doseBasis" : "mcgPerKgPerDose",
+        "dosesPerDay" : 12,
+        "frequencyLabel" : "q1–2h PRN (slow IV over 1–3 min)",
+        "id" : "fent-iv",
+        "maxDailyDose" : 600,
+        "maxDose" : 2,
+        "maxSingleDose" : 100,
+        "minDose" : 1,
+        "name" : "Acute \/ Procedural Pain (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Rapid-onset short-acting opioid for procedural\/acute severe pain."
+  },
+  {
+    "brandNames" : [
+      "Diflucan"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "fluc-40-1",
+        "isMicrogram" : false,
+        "label" : "40 mg \/ mL Suspension (200 mg\/5 mL)",
+        "splittable" : false,
+        "strengthValue" : 40,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "fluc-10-1",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ mL Suspension (50 mg\/5 mL)",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "fluc-tab-100",
+        "isMicrogram" : false,
+        "label" : "100 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Fluconazole",
+    "id" : "fluconazole",
+    "indications" : [
+      {
+        "clinicalPearls" : "Invasive candidiasis uses 12 mg\/kg\/dose (max 800 mg) IV\/PO daily.",
+        "defaultDose" : 6,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "durationNote" : "x 7–14 days",
+        "frequencyLabel" : "once daily (load 6 mg\/kg Day 1)",
+        "id" : "fluc-std",
+        "maxDailyDose" : 400,
+        "maxDose" : 6,
+        "maxSingleDose" : 400,
+        "minDose" : 3,
+        "name" : "Oropharyngeal \/ Esophageal Candidiasis",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Triazole antifungal for candidiasis."
+  },
+  {
+    "brandNames" : [
+      "Solu-Cortef"
+    ],
+    "category" : "Steroids & Endocrine",
+    "formulations" : [
+      {
+        "id" : "hc-50-1",
+        "isMicrogram" : false,
+        "label" : "50 mg \/ mL IV Vial (100 mg\/2 mL)",
+        "splittable" : false,
+        "strengthValue" : 50,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Hydrocortisone",
+    "id" : "hydrocortisone",
+    "indications" : [
+      {
+        "clinicalPearls" : "BSA-based stress dose is 50–100 mg\/m² IV bolus followed by 50–100 mg\/m²\/day divided q6h. Check glucose and electrolytes.",
+        "defaultDose" : 2,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "Bolus 2 mg\/kg (or 50–100 mg\/m²), then q6h",
+        "id" : "hc-stress",
+        "maxDailyDose" : 400,
+        "maxDose" : 2,
+        "maxSingleDose" : 100,
+        "minDose" : 2,
+        "name" : "Adrenal Crisis \/ Refractory Shock (Stress Dose)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Stress-dose glucocorticoid for adrenal crisis \/ catecholamine-refractory shock."
+  },
+  {
+    "brandNames" : [
+      "Atarax",
+      "Vistaril"
+    ],
+    "category" : "Allergy & ENT",
+    "formulations" : [
+      {
+        "id" : "hydx-10-5",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ 5 mL Syrup",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "hydx-tab-25",
+        "isMicrogram" : false,
+        "label" : "25 mg Tablet",
+        "splittable" : false,
+        "strengthValue" : 25,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Hydroxyzine",
+    "id" : "hydroxyzine",
+    "indications" : [
+      {
+        "clinicalPearls" : "Sedating; avoid in patients with prolonged QTc.",
+        "defaultDose" : 2,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "divided q6–8h PRN",
+        "id" : "hydx-pruritus",
+        "maxDailyDose" : 100,
+        "maxDose" : 2,
+        "maxSingleDose" : 50,
+        "minDose" : 2,
+        "name" : "Pruritus \/ Urticaria",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Antihistamine for pruritus and chronic urticaria."
+  },
+  {
+    "brandNames" : [
+      "Motrin",
+      "Advil"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "ibu-100-5",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ 5 mL Children's Susp",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "ibu-50-125",
+        "isMicrogram" : false,
+        "label" : "50 mg \/ 1.25 mL Infant Drops",
+        "splittable" : false,
+        "strengthValue" : 50,
+        "type" : "Oral Drops",
+        "volumeMl" : 1.25
+      },
+      {
+        "id" : "ibu-chew-100",
+        "isMicrogram" : false,
+        "label" : "100 mg Chewable Tablet",
+        "splittable" : true,
+        "strengthValue" : 100,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "ibu-tab-200",
+        "isMicrogram" : false,
+        "label" : "200 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 200,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "ibu-tab-400",
+        "isMicrogram" : false,
+        "label" : "400 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 400,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Ibuprofen",
+    "id" : "ibuprofen",
+    "indications" : [
+      {
+        "ageWarningText" : "Avoid in infants <6 months (renal\/GI toxicity risk).",
+        "clinicalPearls" : "Give with food if GI upset occurs. Max 400 mg\/dose for fever\/pain (600–800 mg\/dose reserved for JIA\/adult). Note Infant Drops (50 mg\/1.25 mL) vs Children's Suspension (100 mg\/5 mL).",
+        "defaultDose" : 10,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6–8h PRN",
+        "id" : "ibu-fever-pain",
+        "maxDailyDose" : 2400,
+        "maxDose" : 10,
+        "maxSingleDose" : 400,
+        "minAgeDays" : 180,
+        "minDose" : 5,
+        "name" : "Fever \/ Analgesia",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Avoid in dehydration, AKI, or significant renal impairment.",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "NSAID antipyretic, analgesic, and anti-inflammatory (≥6 months)."
+  },
+  {
+    "brandNames" : [
+      "Atrovent"
+    ],
+    "category" : "Respiratory & Asthma",
+    "formulations" : [
+      {
+        "id" : "ipra-500-25",
+        "isMicrogram" : false,
+        "label" : "0.5 mg \/ 2.5 mL (0.02% Vial)",
+        "splittable" : false,
+        "strengthValue" : 0.5,
+        "type" : "Nebulizer Solution",
+        "volumeMl" : 2.5
+      }
+    ],
+    "genericName" : "Ipratropium Bromide",
+    "id" : "ipratropium",
+    "indications" : [
+      {
+        "clinicalPearls" : "250 mcg (0.25 mg) for <20 kg or <12y in some protocols; 500 mcg (0.5 mg) for ≥20 kg. Mix directly with albuterol.",
+        "defaultDose" : 0.5,
+        "doseBasis" : "fixedMgPerDose",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "q20min x 3 doses with Albuterol",
+        "id" : "ipra-neb",
+        "maxDailyDose" : 1.5,
+        "maxDose" : 0.5,
+        "maxSingleDose" : 0.5,
+        "minDose" : 0.25,
+        "name" : "Moderate-Severe Asthma Adjunct (Neb)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "NEB"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Anticholinergic bronchodilator adjunct for moderate-severe acute asthma."
+  },
+  {
+    "brandNames" : [
+      "Toradol"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "ket-30-1",
+        "isMicrogram" : false,
+        "label" : "30 mg \/ mL IV\/IM Vial",
+        "splittable" : false,
+        "strengthValue" : 30,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "ket-15-1",
+        "isMicrogram" : false,
+        "label" : "15 mg \/ mL IV\/IM Vial",
+        "splittable" : false,
+        "strengthValue" : 15,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Ketorolac",
+    "id" : "ketorolac",
+    "indications" : [
+      {
+        "ageWarningText" : "Generally avoided in infants <6 months.",
+        "clinicalPearls" : "Max 15 mg\/dose in many pediatric IV protocols for children <50 kg (30 mg for ≥50 kg). Limit total duration to ≤5 days.",
+        "defaultDose" : 0.5,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h (max 48–72h)",
+        "id" : "ket-iv",
+        "maxDailyDose" : 60,
+        "maxDose" : 0.5,
+        "maxSingleDose" : 15,
+        "minAgeDays" : 180,
+        "minDose" : 0.5,
+        "name" : "Acute Pain (IV\/IM)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Contraindicated in renal insufficiency, dehydration, or active bleeding.",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Potent parenteral NSAID for acute moderate-to-severe pain."
+  },
+  {
+    "brandNames" : [
+      "Keppra"
+    ],
+    "category" : "Neuro & Seizure",
+    "formulations" : [
+      {
+        "id" : "lev-100-1",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "lev-po-100",
+        "isMicrogram" : false,
+        "label" : "100 mg \/ mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Levetiracetam",
+    "id" : "levetiracetam",
+    "indications" : [
+      {
+        "clinicalPearls" : "ESETT trial validated 60 mg\/kg (max 4500 mg) IV over 10 min as equally effective to fosphenytoin\/valproate with fewer hemodynamic side effects.",
+        "defaultDose" : 60,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "infuse over 10–15 min",
+        "id" : "lev-se",
+        "maxDose" : 60,
+        "maxSingleDose" : 4500,
+        "minDose" : 40,
+        "name" : "Status Epilepticus (2nd-Line IV Load)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      },
+      {
+        "clinicalPearls" : "Typically initiated at 10 mg\/kg\/dose PO BID and titrated every 2 weeks up to 30 mg\/kg\/dose BID.",
+        "defaultDose" : 10,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 2,
+        "frequencyLabel" : "q12h",
+        "id" : "lev-po",
+        "maxDailyDose" : 3000,
+        "maxDose" : 30,
+        "maxSingleDose" : 1500,
+        "minDose" : 10,
+        "name" : "Seizure Maintenance (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Adjust dose in moderate-to-severe renal impairment.",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Second-line anti-seizure medication for benzodiazepine-refractory status epilepticus."
+  },
+  {
+    "brandNames" : [
+      "Ativan"
+    ],
+    "category" : "Neuro & Seizure",
+    "formulations" : [
+      {
+        "id" : "lora-2-1",
+        "isMicrogram" : false,
+        "label" : "2 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 2,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "lora-4-1",
+        "isMicrogram" : false,
+        "label" : "4 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 4,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Lorazepam",
+    "id" : "lorazepam",
+    "indications" : [
+      {
+        "clinicalPearls" : "Monitor respiratory status and SpO2 closely. Have bag-valve-mask ready.",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "over 1–2 min; may repeat x 1 in 5–10 min",
+        "id" : "lora-se",
+        "maxDose" : 0.1,
+        "maxSingleDose" : 4,
+        "minDose" : 0.05,
+        "name" : "Status Epilepticus (IV\/IO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "First-line IV\/IO benzodiazepine for status epilepticus."
+  },
+  {
+    "brandNames" : [
+      "Solu-Medrol"
+    ],
+    "category" : "Steroids & Endocrine",
+    "formulations" : [
+      {
+        "id" : "mpred-40-1",
+        "isMicrogram" : false,
+        "label" : "40 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 40,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "mpred-625-1",
+        "isMicrogram" : false,
+        "label" : "62.5 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 62.5,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Methylprednisolone",
+    "id" : "methylprednisolone",
+    "indications" : [
+      {
+        "clinicalPearls" : "Max initial bolus 60–80 mg. Transition to oral prednisolone\/dexamethasone once tolerating PO.",
+        "defaultDose" : 2,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 2,
+        "frequencyLabel" : "Load 2 mg\/kg, then 1 mg\/kg q6–12h",
+        "id" : "mpred-asthma",
+        "maxDailyDose" : 120,
+        "maxDose" : 2,
+        "maxSingleDose" : 60,
+        "minDose" : 1,
+        "name" : "Status Asthmaticus (Load then Maintenance)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "IV corticosteroid for status asthmaticus and severe inflammation."
+  },
+  {
+    "brandNames" : [
+      "Flagyl"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "metro-50-1",
+        "isMicrogram" : false,
+        "label" : "250 mg \/ 5 mL (Compounded Susp)",
+        "splittable" : false,
+        "strengthValue" : 250,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "metro-tab-250",
+        "isMicrogram" : false,
+        "label" : "250 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 250,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "metro-tab-500",
+        "isMicrogram" : false,
+        "label" : "500 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 500,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Metronidazole",
+    "id" : "metronidazole",
+    "indications" : [
+      {
+        "clinicalPearls" : "Giardiasis typically uses 15 mg\/kg\/day divided TID x 5–7 days.",
+        "defaultDose" : 30,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 3,
+        "durationNote" : "x 7–10 days",
+        "frequencyLabel" : "divided q8h",
+        "id" : "metro-anaerobe",
+        "maxDailyDose" : 1500,
+        "maxDose" : 40,
+        "maxSingleDose" : 500,
+        "minDose" : 30,
+        "name" : "Anaerobic \/ C. difficile Infection",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Nitroimidazole for anaerobic infections, C. difficile, and giardiasis."
+  },
+  {
+    "brandNames" : [
+      "Versed"
+    ],
+    "category" : "Neuro & Seizure",
+    "formulations" : [
+      {
+        "id" : "midaz-5-1",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ mL Vial (Preferred IM\/IN)",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "midaz-1-1",
+        "isMicrogram" : false,
+        "label" : "1 mg \/ mL Vial (IV)",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Midazolam",
+    "id" : "midazolam",
+    "indications" : [
+      {
+        "clinicalPearls" : "Ideal when IV access is not yet established. For IN, use 5 mg\/mL concentration and split between nares (max 1 mL\/nostril).",
+        "defaultDose" : 0.2,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once (max 10 mg IM\/IN)",
+        "id" : "midaz-im-in",
+        "maxDose" : 0.2,
+        "maxSingleDose" : 10,
+        "minDose" : 0.2,
+        "name" : "Status Epilepticus (IM or Intranasal)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IM"
+      },
+      {
+        "clinicalPearls" : "Monitor airway and ventilation continuously.",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "slow IV push over 1–2 min",
+        "id" : "midaz-iv",
+        "maxDose" : 0.1,
+        "maxSingleDose" : 5,
+        "minDose" : 0.05,
+        "name" : "Status Epilepticus \/ Sedation (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Rapid-acting benzodiazepine for IM\/IN\/IV status epilepticus & sedation."
+  },
+  {
+    "brandNames" : [
+      "Duramorph",
+      "Roxanol"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "morph-iv-2",
+        "isMicrogram" : false,
+        "label" : "2 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 2,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "morph-iv-4",
+        "isMicrogram" : false,
+        "label" : "4 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 4,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "morph-po-10-5",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      }
+    ],
+    "genericName" : "Morphine Sulfate",
+    "id" : "morphine",
+    "indications" : [
+      {
+        "ageWarningText" : "Neonates\/young infants: start at 0.025–0.05 mg\/kg\/dose; monitor for apnea.",
+        "clinicalPearls" : "Administer slowly over 3–5 minutes. Have naloxone available and monitor SpO2\/respiratory rate.",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 6,
+        "frequencyLabel" : "q2–4h PRN (slow IV push)",
+        "id" : "morph-iv",
+        "maxDailyDose" : 24,
+        "maxDose" : 0.1,
+        "maxSingleDose" : 4,
+        "minDose" : 0.05,
+        "name" : "Severe Pain (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Accumulates active M6G metabolite in renal impairment.",
+        "route" : "IV"
+      },
+      {
+        "clinicalPearls" : "Oral bioavailability is ~30% of IV. Titrate carefully.",
+        "defaultDose" : 0.3,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 6,
+        "frequencyLabel" : "q4h PRN",
+        "id" : "morph-po",
+        "maxDailyDose" : 90,
+        "maxDose" : 0.5,
+        "maxSingleDose" : 15,
+        "minDose" : 0.2,
+        "name" : "Severe Pain (Oral)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Opioid analgesic for severe acute pain."
+  },
+  {
+    "brandNames" : [
+      "Narcan"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "nalox-04-1",
+        "isMicrogram" : false,
+        "label" : "0.4 mg \/ mL IV\/IM Vial",
+        "splittable" : false,
+        "strengthValue" : 0.4,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "nalox-1-1",
+        "isMicrogram" : false,
+        "label" : "1 mg \/ mL IV\/IN Vial",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Naloxone",
+    "id" : "naloxone",
+    "indications" : [
+      {
+        "clinicalPearls" : "For iatrogenic post-op oversedation (non-overdose), titrate small doses of 0.001–0.01 mg\/kg to avoid acute withdrawal\/pain.",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "q2–3min PRN until adequate ventilation",
+        "id" : "nalox-rev",
+        "maxDose" : 0.1,
+        "maxSingleDose" : 2,
+        "minDose" : 0.1,
+        "name" : "Opioid Overdose \/ Apnea Reversal",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Opioid receptor antagonist for respiratory depression \/ overdose."
+  },
+  {
+    "brandNames" : [
+      "Macrobid",
+      "Macrodantin",
+      "Furadantin"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "nitro-25-5",
+        "isMicrogram" : false,
+        "label" : "25 mg \/ 5 mL Suspension",
+        "splittable" : false,
+        "strengthValue" : 25,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "nitro-cap-100",
+        "isMicrogram" : false,
+        "label" : "100 mg Capsule (Macrobid q12h ≥12y)",
+        "splittable" : false,
+        "strengthValue" : 100,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Nitrofurantoin",
+    "id" : "nitrofurantoin",
+    "indications" : [
+      {
+        "ageWarningText" : "Avoid in neonates <1 month (hemolytic anemia risk).",
+        "clinicalPearls" : "Does NOT achieve therapeutic renal parenchymal or serum levels — never use for febrile UTI\/pyelonephritis.",
+        "defaultDose" : 6,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 4,
+        "durationNote" : "x 5–7 days",
+        "frequencyLabel" : "divided q6h",
+        "id" : "nitro-uti",
+        "maxDailyDose" : 400,
+        "maxDose" : 7,
+        "maxSingleDose" : 100,
+        "minAgeDays" : 30,
+        "minDose" : 5,
+        "name" : "Uncomplicated Cystitis (Not Pyelonephritis)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Avoid if CrCl <30 mL\/min.",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Urinary-tract-specific antibiotic for uncomplicated cystitis (≥1 month)."
+  },
+  {
+    "brandNames" : [
+      "0.9% Sodium Chloride",
+      "Lactated Ringer's"
+    ],
+    "category" : "Fluids & Electrolytes",
+    "formulations" : [
+      {
+        "id" : "ns-bag",
+        "isMicrogram" : false,
+        "label" : "Isotonic IV Bag (0.9% NS \/ LR)",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "IV Solution",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Normal Saline (0.9% NaCl) \/ LR Bolus",
+    "id" : "ns-bolus",
+    "indications" : [
+      {
+        "clinicalPearls" : "Use 10 mL\/kg boluses in neonates, DKA, or suspected cardiogenic shock \/ myocarditis. Reassess perfusion, lung crackles, and hepatomegaly after each bolus.",
+        "defaultDose" : 20,
+        "doseBasis" : "mLPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "over 5–20 min; reassess after each bolus",
+        "id" : "ns-20",
+        "maxDose" : 20,
+        "maxSingleDose" : 1000,
+        "minDose" : 10,
+        "name" : "Hypovolemic \/ Septic Shock Bolus",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Isotonic crystalloid fluid resuscitation bolus."
+  },
+  {
+    "brandNames" : [
+      "Prilosec"
+    ],
+    "category" : "GI & Antiemetics",
+    "formulations" : [
+      {
+        "id" : "omep-2-1",
+        "isMicrogram" : false,
+        "label" : "2 mg \/ mL Oral Suspension",
+        "splittable" : false,
+        "strengthValue" : 2,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "omep-cap-10",
+        "isMicrogram" : false,
+        "label" : "10 mg DR Capsule",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "omep-cap-20",
+        "isMicrogram" : false,
+        "label" : "20 mg DR Capsule",
+        "splittable" : false,
+        "strengthValue" : 20,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Omeprazole",
+    "id" : "omeprazole",
+    "indications" : [
+      {
+        "clinicalPearls" : "Give 30–60 min before first meal of the day for optimal parietal cell proton pump inhibition.",
+        "defaultDose" : 1,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once daily (30 min before breakfast)",
+        "id" : "omep-std",
+        "maxDailyDose" : 40,
+        "maxDose" : 2,
+        "maxSingleDose" : 40,
+        "minAgeDays" : 365,
+        "minDose" : 1,
+        "name" : "GERD \/ Erosive Esophagitis",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Proton pump inhibitor (PPI) for erosive esophagitis and severe GERD."
+  },
+  {
+    "brandNames" : [
+      "Zofran"
+    ],
+    "category" : "GI & Antiemetics",
+    "formulations" : [
+      {
+        "id" : "ond-4-5",
+        "isMicrogram" : false,
+        "label" : "4 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 4,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "ond-odt-4",
+        "isMicrogram" : false,
+        "label" : "4 mg ODT (Do Not Split)",
+        "splittable" : false,
+        "strengthValue" : 4,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "ond-iv-2",
+        "isMicrogram" : false,
+        "label" : "2 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 2,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Ondansetron",
+    "id" : "ondansetron",
+    "indications" : [
+      {
+        "ageWarningText" : "Limited data in infants <6 months.",
+        "clinicalPearls" : "Standard ED weight tiers: 8–15 kg = 2 mg ODT; 15–30 kg = 4 mg ODT; >30 kg = 8 mg ODT. Caution in congenital long QT syndrome.",
+        "defaultDose" : 0.15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "single dose (or q8h PRN)",
+        "id" : "ond-po-iv",
+        "maxDailyDose" : 24,
+        "maxDose" : 0.15,
+        "maxSingleDose" : 8,
+        "minAgeDays" : 180,
+        "minDose" : 0.15,
+        "name" : "Nausea \/ Vomiting (Oral)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "4 mg max per IV dose for post-op nausea\/vomiting in most pediatric protocols.",
+        "defaultDose" : 0.15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 3,
+        "frequencyLabel" : "q8h PRN (slow IV over 2–5 min)",
+        "id" : "ond-iv",
+        "maxDailyDose" : 12,
+        "maxDose" : 0.15,
+        "maxSingleDose" : 4,
+        "minAgeDays" : 180,
+        "minDose" : 0.15,
+        "name" : "Nausea \/ Vomiting (IV)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "5-HT3 antagonist antiemetic for acute gastroenteritis & post-op nausea."
+  },
+  {
+    "brandNames" : [
+      "Tamiflu"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "osel-6-1",
+        "isMicrogram" : false,
+        "label" : "6 mg \/ mL Suspension (30 mg\/5 mL)",
+        "splittable" : false,
+        "strengthValue" : 6,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "osel-cap-30",
+        "isMicrogram" : false,
+        "label" : "30 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 30,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "osel-cap-45",
+        "isMicrogram" : false,
+        "label" : "45 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 45,
+        "type" : "Capsule"
+      },
+      {
+        "id" : "osel-cap-75",
+        "isMicrogram" : false,
+        "label" : "75 mg Capsule",
+        "splittable" : false,
+        "strengthValue" : 75,
+        "type" : "Capsule"
+      }
+    ],
+    "genericName" : "Oseltamivir",
+    "id" : "oseltamivir",
+    "indications" : [
+      {
+        "clinicalPearls" : "3 mg\/kg\/dose BID is for infants <12 months. For ≥1 year, select the weight-tier indication.",
+        "defaultDose" : 3,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q12h",
+        "id" : "osel-infant",
+        "maxAgeYears" : 1,
+        "maxDailyDose" : 150,
+        "maxDose" : 3,
+        "maxSingleDose" : 75,
+        "minDose" : 3,
+        "name" : "Influenza Treatment (<12 months)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "CDC\/AAP weight-band dosing for ≥1 year and ≤15 kg: 30 mg PO BID x 5 days.",
+        "defaultDose" : 30,
+        "doseBasis" : "fixedMgPerDose",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q12h",
+        "id" : "osel-child-15",
+        "maxDailyDose" : 60,
+        "maxDose" : 30,
+        "maxSingleDose" : 30,
+        "minAgeDays" : 365,
+        "minDose" : 30,
+        "name" : "Influenza ≥1y (≤15 kg Tier)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "CDC\/AAP weight-band dosing for ≥1 year and >15–23 kg: 45 mg PO BID x 5 days.",
+        "defaultDose" : 45,
+        "doseBasis" : "fixedMgPerDose",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q12h",
+        "id" : "osel-child-23",
+        "maxDailyDose" : 90,
+        "maxDose" : 45,
+        "maxSingleDose" : 45,
+        "minAgeDays" : 365,
+        "minDose" : 45,
+        "name" : "Influenza ≥1y (>15–23 kg Tier)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "CDC\/AAP weight-band dosing for ≥1 year and >23–40 kg: 60 mg PO BID x 5 days.",
+        "defaultDose" : 60,
+        "doseBasis" : "fixedMgPerDose",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q12h",
+        "id" : "osel-child-40",
+        "maxDailyDose" : 120,
+        "maxDose" : 60,
+        "maxSingleDose" : 60,
+        "minAgeDays" : 365,
+        "minDose" : 60,
+        "name" : "Influenza ≥1y (>23–40 kg Tier)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      },
+      {
+        "clinicalPearls" : "CDC\/AAP weight-band dosing for ≥1 year and >40 kg: 75 mg PO BID x 5 days.",
+        "defaultDose" : 75,
+        "doseBasis" : "fixedMgPerDose",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5 days",
+        "frequencyLabel" : "q12h",
+        "id" : "osel-child-over40",
+        "maxDailyDose" : 150,
+        "maxDose" : 75,
+        "maxSingleDose" : 75,
+        "minAgeDays" : 365,
+        "minDose" : 75,
+        "name" : "Influenza ≥1y (>40 kg Tier)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Neuraminidase inhibitor for Influenza A\/B treatment and prophylaxis."
+  },
+  {
+    "brandNames" : [
+      "Roxicodone"
+    ],
+    "category" : "Antipyretics & Pain",
+    "formulations" : [
+      {
+        "id" : "oxy-5-5",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "oxy-tab-5",
+        "isMicrogram" : false,
+        "label" : "5 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 5,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Oxycodone",
+    "id" : "oxycodone",
+    "indications" : [
+      {
+        "clinicalPearls" : "Use lowest effective dose for shortest duration. Verify concentration (5 mg\/5 mL vs 20 mg\/mL concentrate).",
+        "defaultDose" : 0.1,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 6,
+        "frequencyLabel" : "q4–6h PRN",
+        "id" : "oxy-po",
+        "maxDailyDose" : 40,
+        "maxDose" : 0.15,
+        "maxSingleDose" : 10,
+        "minAgeDays" : 180,
+        "minDose" : 0.05,
+        "name" : "Moderate-Severe Pain (PO)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Oral opioid analgesic for moderate-to-severe acute pain."
+  },
+  {
+    "brandNames" : [
+      "Luminal"
+    ],
+    "category" : "Neuro & Seizure",
+    "formulations" : [
+      {
+        "id" : "pheno-130-1",
+        "isMicrogram" : false,
+        "label" : "130 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 130,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "pheno-65-1",
+        "isMicrogram" : false,
+        "label" : "65 mg \/ mL IV Vial",
+        "splittable" : false,
+        "strengthValue" : 65,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Phenobarbital",
+    "id" : "phenobarbital",
+    "indications" : [
+      {
+        "clinicalPearls" : "If seizures persist after 20 mg\/kg, may give additional 10–20 mg\/kg (up to 40 mg\/kg total load) with close respiratory\/BP monitoring.",
+        "defaultDose" : 20,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "infuse over 15–20 min (max 1–2 mg\/kg\/min)",
+        "id" : "pheno-load",
+        "maxDose" : 20,
+        "maxSingleDose" : 1000,
+        "minDose" : 20,
+        "name" : "Neonatal \/ Refractory Seizures (IV Load)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "First-line anti-seizure medication for neonatal seizures."
+  },
+  {
+    "brandNames" : [
+      "MiraLAX"
+    ],
+    "category" : "GI & Antiemetics",
+    "formulations" : [
+      {
+        "id" : "peg-17g",
+        "isMicrogram" : false,
+        "label" : "17 g Capful (17,000 mg)",
+        "splittable" : true,
+        "strengthValue" : 17000,
+        "type" : "Powder \/ Capful"
+      }
+    ],
+    "genericName" : "Polyethylene Glycol 3350",
+    "id" : "peg-3350",
+    "indications" : [
+      {
+        "clinicalPearls" : "1 capful = 17 g (17,000 mg). Mix in 4–8 oz of water or juice. Disimpaction uses 1–1.5 g\/kg\/day x 3–6 days.",
+        "defaultDose" : 600,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "once daily (0.4–0.8 g\/kg\/day)",
+        "id" : "peg-maint",
+        "maxDailyDose" : 17000,
+        "maxDose" : 800,
+        "maxSingleDose" : 17000,
+        "minAgeDays" : 180,
+        "minDose" : 400,
+        "name" : "Maintenance Constipation",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Osmotic laxative for functional constipation and fecal disimpaction."
+  },
+  {
+    "brandNames" : [
+      "Orapred",
+      "Prelone",
+      "Pediapred"
+    ],
+    "category" : "Steroids & Endocrine",
+    "formulations" : [
+      {
+        "id" : "pred-15-5",
+        "isMicrogram" : false,
+        "label" : "15 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 15,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "pred-25-5",
+        "isMicrogram" : false,
+        "label" : "25 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 25,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "pred-5-5",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ 5 mL Oral Soln",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "pred-tab-5",
+        "isMicrogram" : false,
+        "label" : "5 mg Tablet",
+        "splittable" : true,
+        "strengthValue" : 5,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "pred-tab-20",
+        "isMicrogram" : false,
+        "label" : "20 mg Tablet (Prednisone)",
+        "splittable" : true,
+        "strengthValue" : 20,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "Prednisolone",
+    "id" : "prednisolone",
+    "indications" : [
+      {
+        "clinicalPearls" : "1–2 mg\/kg\/day (max 60 mg\/day). Give with food. Concentrates like 15 mg\/5 mL reduce total volume for young children.",
+        "defaultDose" : 2,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 1,
+        "durationNote" : "x 3–5 days",
+        "frequencyLabel" : "once daily (or divided BID)",
+        "id" : "pred-asthma",
+        "maxDailyDose" : 60,
+        "maxDose" : 2,
+        "maxSingleDose" : 60,
+        "minDose" : 1,
+        "name" : "Asthma Exacerbation (Burst)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Oral corticosteroid for asthma exacerbations and inflammatory conditions."
+  },
+  {
+    "brandNames" : [
+      "Asthmanefrin",
+      "Vaponefrin"
+    ],
+    "category" : "Respiratory & Asthma",
+    "formulations" : [
+      {
+        "id" : "repi-225",
+        "isMicrogram" : false,
+        "label" : "2.25% Nebulizer Solution",
+        "splittable" : false,
+        "strengthValue" : 22.5,
+        "type" : "Nebulizer Solution",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Racemic Epinephrine (2.25%)",
+    "id" : "racemic-epi",
+    "indications" : [
+      {
+        "clinicalPearls" : "0.05 mL\/kg of 2.25% solution (max 0.5 mL) diluted in 3 mL NS. Observe for 2–4h post-dose for rebound stridor; always pair with Dexamethasone.",
+        "defaultDose" : 0.05,
+        "doseBasis" : "mLPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q1–2h PRN (dilute in 3 mL NS)",
+        "id" : "repi-croup",
+        "maxDose" : 0.05,
+        "maxSingleDose" : 0.5,
+        "minDose" : 0.05,
+        "name" : "Croup (Stridor at Rest)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "NEB"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Nebulized alpha\/beta agonist for moderate-to-severe croup stridor."
+  },
+  {
+    "brandNames" : [
+      "NaHCO3"
+    ],
+    "category" : "Emergency & Resuscitation",
+    "formulations" : [
+      {
+        "id" : "nahco3-84",
+        "isMicrogram" : false,
+        "label" : "8.4% (1 mEq \/ mL) IV Vial",
+        "splittable" : false,
+        "strengthValue" : 1,
+        "type" : "IV Solution",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Sodium Bicarbonate",
+    "id" : "sodium-bicarb",
+    "indications" : [
+      {
+        "clinicalPearls" : "1 mEq\/mL = 8.4% solution (standard pediatric\/adult). In neonates, dilute 1:1 with sterile water (0.5 mEq\/mL = 4.2%) to reduce osmolarity.",
+        "defaultDose" : 1,
+        "doseBasis" : "mLPerKgPerDose",
+        "dosesPerDay" : 1,
+        "frequencyLabel" : "slow IV push over 1–2 min",
+        "id" : "nahco3-iv",
+        "maxDose" : 2,
+        "maxSingleDose" : 50,
+        "minDose" : 1,
+        "name" : "TCA Toxicity \/ Severe Acidosis (1 mEq\/mL)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "IV\/IO"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Alkalinizing agent for TCA overdose, severe hyperkalemia, and metabolic acidosis."
+  },
+  {
+    "brandNames" : [
+      "Bactrim",
+      "Septra"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "tmpsmx-40-5",
+        "isMicrogram" : false,
+        "label" : "40 mg TMP \/ 5 mL Susp",
+        "splittable" : false,
+        "strengthValue" : 40,
+        "type" : "Oral Liquid \/ Syrup",
+        "volumeMl" : 5
+      },
+      {
+        "id" : "tmpsmx-ss",
+        "isMicrogram" : false,
+        "label" : "80 mg TMP (SS Tablet)",
+        "splittable" : true,
+        "strengthValue" : 80,
+        "type" : "Tablet \/ Chewable"
+      },
+      {
+        "id" : "tmpsmx-ds",
+        "isMicrogram" : false,
+        "label" : "160 mg TMP (DS Tablet)",
+        "splittable" : true,
+        "strengthValue" : 160,
+        "type" : "Tablet \/ Chewable"
+      }
+    ],
+    "genericName" : "TMP-SMX (Trimethoprim-Sulfamethoxazole)",
+    "id" : "tmp-smx",
+    "indications" : [
+      {
+        "ageWarningText" : "Contraindicated in infants <2 months (kernicterus risk).",
+        "clinicalPearls" : "Dosed based on Trimethoprim (TMP) component. 5 mL of suspension = 40 mg TMP \/ 200 mg SMX. 1 DS tablet = 160 mg TMP.",
+        "defaultDose" : 8,
+        "doseBasis" : "mgPerKgPerDay",
+        "dosesPerDay" : 2,
+        "durationNote" : "x 5–10 days",
+        "frequencyLabel" : "divided q12h",
+        "id" : "tmpsmx-uti",
+        "maxDailyDose" : 320,
+        "maxDose" : 12,
+        "maxSingleDose" : 160,
+        "minAgeDays" : 60,
+        "minDose" : 8,
+        "name" : "UTI \/ Purulent SSTI (MRSA)",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "route" : "PO"
+      }
+    ],
+    "isEmergency" : false,
+    "summary" : "Sulfonamide\/DHFR inhibitor for UTI and purulent MRSA SSTI (dosed by TMP)."
+  },
+  {
+    "brandNames" : [
+      "Vancocin"
+    ],
+    "category" : "Antibiotics & Anti-infectives",
+    "formulations" : [
+      {
+        "id" : "vanc-iv-5",
+        "isMicrogram" : false,
+        "label" : "5 mg \/ mL IV Bag (Standard)",
+        "splittable" : false,
+        "strengthValue" : 5,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      },
+      {
+        "id" : "vanc-iv-10",
+        "isMicrogram" : false,
+        "label" : "10 mg \/ mL IV Bag",
+        "splittable" : false,
+        "strengthValue" : 10,
+        "type" : "IV \/ IM Vial",
+        "volumeMl" : 1
+      }
+    ],
+    "genericName" : "Vancomycin",
+    "id" : "vancomycin",
+    "indications" : [
+      {
+        "clinicalPearls" : "Infuse over ≥60 min (max 10 mg\/min) to prevent Vancomycin Infusion Reaction (flushing\/histamine release).",
+        "defaultDose" : 15,
+        "doseBasis" : "mgPerKgPerDose",
+        "dosesPerDay" : 4,
+        "frequencyLabel" : "q6h (infuse over 60–90 min)",
+        "id" : "vanc-iv",
+        "maxDailyDose" : 4000,
+        "maxDose" : 20,
+        "maxSingleDose" : 1500,
+        "minDose" : 15,
+        "name" : "Systemic MRSA \/ Sepsis \/ Meningitis",
+        "referenceSource" : "AAP \/ Harriet Lane \/ Lexicomp",
+        "renalNote" : "Requires AUC\/trough TDM and renal adjustment.",
+        "route" : "IV"
+      }
+    ],
+    "isEmergency" : true,
+    "summary" : "Glycopeptide for serious MRSA, resistant Gram-positive, and meningitis."
+  }
+]
